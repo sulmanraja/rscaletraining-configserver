@@ -6,4 +6,4 @@ info:
 spring:
   profiles: cloud
 
-message: Cloud Native Sulman Raja Denver
+message: I changed this value
