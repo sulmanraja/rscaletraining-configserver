@@ -2,4 +2,4 @@
 spring:
  profiles: cloud
 
-message: Cloud Native - Sulman Denver 2018
+message: Cloud Native Rocks!
