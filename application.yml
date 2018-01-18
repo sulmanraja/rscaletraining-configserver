@@ -1,9 +1,3 @@
 ---
 info:
   description: Training configuration repo
-
----
-spring:
-  profiles: cloud
-
-message: I changed this value
