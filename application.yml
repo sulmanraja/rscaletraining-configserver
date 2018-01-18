@@ -1,4 +1,9 @@
 ---
-message: Sulman
 info:
   description: Training configuration repo
+
+---
+spring:
+  profiles: cloud
+
+message: Cloud Native Sulman Raja Denver
