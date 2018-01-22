@@ -1,3 +1,8 @@
 ---
 info:
   description: Training configuration repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka_rscale:i_am_eureka!@eureka-server-theogonic-polydemonist.cfapps.io/eureka
