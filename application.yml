@@ -3,7 +3,7 @@ info:
   description: Training configuration repo
 
 ---
-spring
+spring:
  profiles: cloud
 
 eureka:
