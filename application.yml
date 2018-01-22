@@ -1,7 +1,14 @@
 ---
 info:
   description: Training configuration repo
+---
+srping:
+ profiles: cloud
 
+eureka:
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
 ---
 eureka:
   client:
