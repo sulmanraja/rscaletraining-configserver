@@ -5,12 +5,4 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka_rscale:i_am_eureka!@eureka-server-theogonic-polydemonist.cfapps.io/eureka  
----
-spring:
- profiles: cloud
-
-eureka:
- instance:
-  hostname: ${vcap.application.uris[0]}
-   nonSecurePort: 80
+      defaultZone: http://eureka_rscale:i_am_eureka!@eureka-server-theogonic-polydemonist.cfapps.io/eureka
