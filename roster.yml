@@ -7,4 +7,4 @@ eureka:
   hostname: ${vcap.application.uris[0]}
    nonSecurePort: 80
 
-message: Cloud Native Rocks!
+message: Roster Cloud Native Rocks!
