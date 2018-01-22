@@ -3,9 +3,6 @@ info:
   description: Training configuration repo
 
 ---
-spring:
- profiles: cloud
-
 eureka:
   client:
     serviceUrl:
